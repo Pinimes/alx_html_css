@@ -342,4 +342,49 @@ blockquote {
     font-family: Source Sans pro;
     color: rgba(255, 255, 255, 1);
 }
+
+.faq-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 920px;
+    height: 707px;
+    margin-left: 249px;
 }
+
+.faq-page h2 {
+    font-family: Source Sans Pro;
+    color: rgba(7, 22, 41, 1);
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    height: 707px;
+
+
+    .article-one,
+    .article-two {
+        margin-left: 0px;
+
+
+    }
+
+    .articles h3 {
+        font-family: Source Sans Pro;
+        color: rgba(7, 22, 41, 1);
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .lorem {
+        font-family: Source Sans Pro;
+        color: rgba(7, 22, 41, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        width: 350px;
+        margin-bottom: 70px;
+    }
