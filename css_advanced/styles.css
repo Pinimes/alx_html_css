@@ -1,0 +1,271 @@
+/* General reset and basic styles */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}
+
+/* Header styles */
+header {
+    color: white;
+    margin-bottom: 8%;
+    margin-left: 10%;
+    width: 80%;
+    padding-top: 30px;
+}
+
+.home-page {
+    background-image: url('images/Object.png');
+    background-size: cover;
+    height: 160%;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 160px;
+    height: 35px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-page-heading-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page-heading h1 {
+    color: white;
+    font-size: 90px;
+}
+
+.home-page-features {
+    margin-top: -66px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25%;
+    color: white;
+    font-weight: 700;
+}
+
+.home-page-heading button {
+    width: 175px;
+    border-radius: 35px;
+    padding: 16px;
+    background-color: #C271FF;
+    color: white;
+    font-weight: bolder;
+    margin-left: 35%;
+    margin-top: 37px;
+    border: 1px solid #C271FF;
+}
+
+.home-page-learn {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    color: rgb(194, 190, 190);
+    font-weight: 500;
+    margin-bottom: 180px;
+}
+
+.home-page-learn .highlighted {
+    color: #C271FF;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.img2 {
+    border-radius: 50%;
+}
+
+.pros {
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.pros .individual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 500px;
+    text-align: center;
+}
+
+.testemony {
+    background-color: #C271FF;
+    display: flex;
+    flex-direction: row;
+}
+
+.testemony-img {
+    display: flex;
+    justify-content: left;
+    padding-top: 5%;
+    height: 150;
+    padding-left: 20%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+}
+
+.testemony-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+blockquote {
+    display: flex;
+    margin-left: 0px;
+    width: 600;
+    margin-top: 13%;
+}
+
+.testemony-text h3 {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.testemony-text p {
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.popular {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.populars {
+    display: flex;
+    margin-left: 106px;
+    justify-content: space-around;
+    margin-left: 106px;
+    margin-right: 106px;
+}
+
+.popular h2 {
+    display: flex;
+    justify-content: center;
+    font-family: Source Sans Pro;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.popular-tutuorials {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 335px;
+}
+
+.popular-tutuorials img {
+    width: 255px;
+    height: 154px;
+}
+
+.popular-tutuorials h3 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Source Sans Pro;
+    color: #071629;
+    margin-left: 13px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.popular-tutuorials p {
+    width: 242px;
+    margin-left: 13px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #071629;
+    opacity: 50.16%;
+    font-family: Source sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.phillip {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.phillip img {
+    width: 30px;
+    height: 30px;
+    margin-left: 13px;
+}
+
+.phillip h4 {
+    color: #C271FF;
+    font-family: Source sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.stars {
+    display: flex;
+    width: 107px;
+    height: 15px;
+    margin-left: 13px;
+    margin-top: 0px;
+    color: #C271FF;
+}
+
+.star-time {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    justify-content: flex-end;
+}
+
+.star-time p {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 100%;
+    margin-left: 100px;
+
+}
